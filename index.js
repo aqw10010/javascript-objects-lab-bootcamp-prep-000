@@ -22,6 +22,6 @@ delete newObj[key]
 }
 
  function destructivelyDeleteFromObjectByKey(object, key) {
-   const newObject = Object.assign({}, newObject )
+   const newObject = recipes.assign({}, recipes )
    return delete newObject[key]
  }
